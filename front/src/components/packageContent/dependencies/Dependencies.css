@@ -1,0 +1,39 @@
+.dependencies-container {
+    margin-top: 20px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+strong {
+    font-size: 1.2em;
+}
+
+.dependency-list {
+    list-style-type: none;
+}
+
+.dependency-list-item {
+    margin-top: 2px;
+}
+
+.dependency-link, .dependency-item {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: black;
+    transition: all .1s ease-in-out;
+}
+
+.dependency-link:hover {
+    color:red;
+    font-size: 1.4em;
+}
+
+.dependency-item:hover {
+    color: grey;
+}
+
+@media (max-width: 600px) {
+    .dependencies-container{ grid-gap: 30px; }
+}

@@ -1,0 +1,11 @@
+.package-content {
+    max-height: 100%;
+    overflow: scroll;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.package-description {
+    font-size: 1.1em;
+    overflow: auto;
+}

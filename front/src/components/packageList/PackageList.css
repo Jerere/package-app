@@ -1,0 +1,22 @@
+.package-list {
+    list-style-type: none;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.package-list-item {
+    margin-top: 10px;
+}
+
+.package-link {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    transition: all .1s ease-in-out;
+}
+
+.package-link:hover {
+    color: red;
+    font-size: 1.6em;
+}
