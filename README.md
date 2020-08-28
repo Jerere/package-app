@@ -1,5 +1,7 @@
 # package-app 📦
 
+Application that reveals basic information about packages listed in /var/lib/dpkg/status file on Debian and Ubuntu systems.
+
 <a href='https://package-app-2020.herokuapp.com/'>Live app link</a>
 
 ## How to run:
