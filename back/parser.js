@@ -5,7 +5,7 @@ const parser = (filePath) => {
 
     return new Promise((resolve) => {
 
-        const file = fs.existsSync(filePath) ? filePath : './__test__/test.data'
+        const file = fs.existsSync(filePath) ? filePath : 'status.real'
         let packageList = [{}];
         let packages;
         let i = 0
