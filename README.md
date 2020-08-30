@@ -12,7 +12,7 @@ This project is <a href='https://www.reaktor.com/junior-dev-assignment/'>pre-ass
 # install and run server
 
 git clone https://github.com/Jerere/package-app
-cd package-app
+cd package-app/back
 npm install
 node app.js
 
