@@ -4,6 +4,8 @@ import './SearchBar.css'
 function SearchBar({ setFilteredList, packages }) {
 
     const filterList = (input) => {
+        if (!packages) return
+
         setFilteredList(
             packages.filter(pkg => pkg['Package'].includes(input.toLowerCase()))
         )
