@@ -1,0 +1,15 @@
+input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #eee;
+    width: 95%;
+    font-family: monospace;
+    font-size: 1.2em;
+    transition: all .1s ease-in-out;
+}
+
+input:hover, input:focus {
+    outline: none;
+    border-bottom: 2px solid black;
+    transform: scale(1.05);
+}

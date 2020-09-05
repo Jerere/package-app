@@ -17,7 +17,7 @@ html, body {
   height: 100%;
 }
 
-.list, .content {
+.navigation, .content {
   margin: 20px;
   border-radius: 4px;
   padding: 20px;
@@ -31,8 +31,16 @@ html, body {
   0 100px 80px rgba(0, 0, 0, 0.16);
 }
 
-.list {
+.navigation {
   background: white;
+}
+
+.search {
+  height: 6%;
+}
+
+.list {
+  height: 94%;
 }
 
 .content {
